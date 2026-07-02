@@ -30,10 +30,10 @@ from rv_model import rv_model
 # =====================================================
 
 
-
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 RESULT_DIR = os.path.join(BASE_DIR, "results")
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 PROJECT_DIR = os.path.dirname(BASE_DIR)
 
 DATA_FILE = os.path.join(
